@@ -13,8 +13,9 @@ body{
 ul{list-style: none;}
 
 button{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 600;
     padding: 8px 16px;
     border: 1px solid #0052CC;
     border-radius: 5px;
@@ -39,14 +40,11 @@ button:hover{
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 65px;
+    height: 85px;
     z-index: 999;
     background:  rgb(253 253 253);
     transition: 0.5s;
-    
-    
 
-    
 }
 
 .header.active{
@@ -57,7 +55,7 @@ button:hover{
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 65px;
+    height: 85px;
     z-index: 999;
     background-color:  rgb(253 253 253);
     box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
@@ -81,7 +79,7 @@ button:hover{
 .header .logo{
     margin: 0;
     padding: 30px 12px;
-    font-weight: bolder;
+    font-weight: 600;
     color: #0052CC;
     text-decoration: none;
     font-size: 1.7em;
@@ -116,7 +114,7 @@ button:hover{
     justify-content: right;
     align-items: center;
     text-align: left;
-    height: 1000px;
+    height: 780px;
     max-width: 1200px;
     margin: auto;
     background-color: rgb(254 254 254)
@@ -128,18 +126,23 @@ button:hover{
     height: 420px;
     width: 800px;
     margin-right: 250px;
-    margin-bottom: 50px;
+    margin-top: 65px;
     
 }
 
 #hero .image{
     position: absolute;
     margin-right: 80px;
+    height: 598px;
+}
+
+#hero .image img{
+    height: 620px;
 }
 
 #hero h1{
     color: #42526E;
-    font-weight: bolder;
+    font-weight: 600;
     font-size: 2.7em;
     width: 500px;
     margin:60px 0px;
@@ -150,8 +153,8 @@ button:hover{
 
  #hero p{
     color: #42526E;
-    font-weight: bolder;
-    font-size: 1.1em;
+    font-weight: 400;
+    font-size: 1em;
     width: 550px;
     margin: 20px 0px;
     margin-bottom: 20px;
@@ -181,8 +184,8 @@ button:hover{
 
 #btf h2{
     color: #42526E;
-    font-size: 2.3em;
-    font-weight: bolder;
+    font-size: 2.25em;
+    font-weight: 600;
     margin: 0px 60px;
     margin-left: 160px;
     margin-right: 150px;
@@ -191,7 +194,7 @@ button:hover{
 #btf p{
     color: #42526E;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 400;
     margin-top: 20px;
     margin-left: 160px;
     margin-right: 310px;
@@ -218,7 +221,7 @@ button:hover{
     
 }
 
-.wrapper h1{
+.wrapper h3{
     margin: 0;
     margin-left: 230px;
     width: 700px;
@@ -227,7 +230,7 @@ button:hover{
     top: 16px;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 33px;
     color: #42526E;
     
@@ -239,8 +242,8 @@ button:hover{
     text-align: center;
     cursor: pointer;
     color: #42526E;
-    font-size: 15px; 
-    font-weight: bolder;
+    font-size: 1em; 
+    font-weight: 600;
     position: relative;
     z-index: 1;
     padding-bottom: 5px;
@@ -347,6 +350,7 @@ section .content{
 section .content .text{
     height: 100%;
     width: 35%;
+    margin-left: 8px;
     
     
 }
@@ -377,10 +381,10 @@ section .content .image img{
 }
 
 section .content1 .text h2{
-    width: 398px;
+    width: 420px;
     height: 97px;
-    font-weight: 300;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 2.25em;
     line-height: 49px;
     color: #0052CC;
 }
@@ -388,8 +392,8 @@ section .content1 .text h2{
 section .content2 .text h2{
     width: 500px;
     height: 97px;
-    font-weight: 300;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 2.25em;
     line-height: 49px;
     color: #0052CC;
 }
@@ -397,17 +401,17 @@ section .content2 .text h2{
 section .content3 .text h2{
     width: 500px;
     height: 97px;
-    font-weight: 300;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 2.25em;
     line-height: 49px;
     color: #0052CC;
 }
 
 section .content4 .text h2{
-    width: 360px;
+    width: 420px;
     height: 97px;
-    font-weight: 300;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 2.25em;
     line-height: 49px;
     color: #0052CC;
 }
@@ -415,17 +419,17 @@ section .content4 .text h2{
 section .content5 .text h2{
     width: 390px;
     height: 97px;
-    font-weight: 300;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 2.25em;
     line-height: 49px;
     color: #0052CC;
 }
 
 section .content6 .text h2{
-    width: 400px;
+    width: 420px;
     height: 97px;
-    font-weight: 300;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 2.25em;
     line-height: 49px;
     color: #0052CC;
 }
@@ -440,9 +444,9 @@ section .content6 .text h2{
 
 #operations h2{
     color: #42526E;
-    font-size: 2.3em;
-    font-weight: bolder;
-    margin-top: 30px;
+    font-size: 2.25em;
+    font-weight: 600;
+    margin-top: 80px;
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 10px;
@@ -451,7 +455,7 @@ section .content6 .text h2{
 #operations p{
     color: #42526E;
     font-size: 1.25em;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 #operations .cards{
@@ -463,8 +467,8 @@ section .content6 .text h2{
 
 #operations .cards .card{
     border: rgba(0, 0, 0, 0.11) solid 1px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.055);
-    border-radius: 5px;
+    box-shadow: (0px 4px 8px rgba(9, 30, 66, 0.25));
+    border-radius: 6px;
     width: 320px;
     margin: 10px;
     padding: 10px;
@@ -478,7 +482,7 @@ section .content6 .text h2{
 
 #operations .cards .card h3{
     color: #0052CC;
-    font-weight: bolder;
+    font-weight: 600;
     font-size: 1.5em;
     margin-top: 12.5px;
     margin-bottom: 20px;
@@ -487,22 +491,22 @@ section .content6 .text h2{
 
 #operations .cards .card p{
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 25px;
 }
 
 #testimonials{
     align-items: center;
     text-align: center;
-    height: 800px;
+    height: 1000px;
     max-width: 1200px;
     margin: auto;
 }
 
 #testimonials h2{
     color: #42526E;
-    font-size: 2.3em;
-    font-weight: bolder;
+    font-size: 2.25em;
+    font-weight: 600;
     margin-top: 30px;
     margin-left: 150px;
     margin-right: 150px;
@@ -512,7 +516,7 @@ section .content6 .text h2{
 #testimonials p{
     color: #42526E;
     font-size: 1.25em;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 #testimonials .cards{
@@ -526,19 +530,13 @@ section .content6 .text h2{
     padding: 0px 100px;
 }
 
-#testimonials .cards .card h3{
-    color: #42526E;
-    font-size: 1.1em;
-    font-weight: bolder;
-    font-style: italic;
-}
-
-#testimonials .cards .card:first-child h3{
+#testimonials .cards .card:first-child p{
     margin-right: 600px;
 }
 
-#testimonials .cards .card:last-child h3{
+#testimonials .cards .card:last-child p{
     margin-left: 600px;
+    
 }
 
 #testimonials .cards .card:first-child{
@@ -549,16 +547,21 @@ section .content6 .text h2{
     text-align: right;
 }
 
-#testimonials .cards .card h4{
+#testimonials .cards .card .text{
     color: #42526E;
-    font-size: 0.9em;
-    font-weight: bolder;
+    font-size: 1.4em; 
+    font-weight: 600;
 }
 
-#testimonials .cards .card p{
+#testimonials .cards .card .name{
     color: #42526E;
-    font-size: 0.9em;
+    font-size: 1.25em;
     font-weight: 600;
+}
+#testimonials .cards .card .company{
+    color: #42526E;
+    font-size: 1.25em;
+    font-weight: 400;
 }
 
 .footer{
@@ -569,8 +572,8 @@ section .content6 .text h2{
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 65px;
-    background:  rgb(253 253 253);
+    height: 180px;
+    background-color: #F4F5F7;
    
 }
 
@@ -585,20 +588,19 @@ section .content6 .text h2{
 }
 
 .footer .logo{
-    margin: 5px;
-    padding: 30px 12px;
-    padding-left: 0px;
-    font-weight: bolder;
+    padding-right: 14px;
+    font-weight: 600;
     color: #42526E;
     text-decoration: none;
     font-size: 1.7em;
+    
     
 }
 
 .footer .container .img img{
     height: 35px;
     width: 40px;
-    margin-right: 710px;
+    margin-right: 690px;
     
 }
 
@@ -642,9 +644,6 @@ section .content6 .text h2{
     left: 0;
     right: 0;
     margin-top: 50px;
-
-   
-  
 }
 
 #cta .container{
@@ -652,15 +651,15 @@ section .content6 .text h2{
     height: 100%;
     max-width: 90%;
     margin-right: 0px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) -15.48%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.25) -15.48%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%);
     border-radius: 0px 0px 0px 380px;
     z-index: 0;
 }
 
 #cta .text h3{
     color: white;
-    font-size: 1.25em;
-    font-weight: bolder;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 #cta .text button{
@@ -679,7 +678,7 @@ section .content6 .text h2{
 #tabs h3{
     color: #42526E;
     font-size: 1.5em;
-    font-weight: bolder;
+    font-weight: 600;
     margin: 0px 60px;
     margin-left: 150px;
     margin-right: 150px;

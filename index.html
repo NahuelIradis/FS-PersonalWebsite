@@ -15,24 +15,64 @@
 
 <body>
     <header class="header">
-        <div class="container">
-            <a href="index.html" class="logo">Franco Sartori</a>
-            <div class="img">
-                <img src="./images/Frame 50.svg" alt=" personal logo">
+
+        <input type="checkbox" id="toggle">
+
+        
+
+        <nav class="navbar">
+
+            <div class="back-menu" id="back-menu"></div>
+            
+            <div class="navbar-logo">
+                <a class="navbar-brand" href="#">
+                    Franco Sartori
+                </a>
+                <img class="brand-logo" src="./images/Frame 50.svg" alt="">
             </div>
-            <nav>
-                <a href="mailto:f2.sartori@gmail.com" target="_blank">
-                    <img src="./images/googlev2blue.svg" alt="google logo">
-                </a>
-                <a href="https://www.linkedin.com/in/francosartori/"  target="_blank">
-                    <img src="./images/coolicon.svg" alt="linkedin logo">
-                </a>  
-                <a href="https://calendly.com/franco-sartori/30min?month=2022-11" target="_blank">
-                    <button >Book a call</button>
-                </a>
-            </nav>
-        </div>    
-        </header>
+            
+            <label class="navbar-toggler" for="toggle" id="hamburger">
+                <div class="container">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </div>
+            </label>
+
+            <ul class="nav-list" >
+                <li class="nav-item not-button">
+                    <a href="mailto:f2.sartori@gmail.com"class="nav-link" target="_blank">
+                        <img src="./images/googlev2blue.svg" alt="google logo">
+                        <p>f2.sartori@gmail.com</p>
+                    </a>
+                </li>
+
+                <li class="nav-item not-button">
+                    <a href="https://www.linkedin.com/in/francosartori/" class="nav-link" target="_blank">
+                        <img src="./images/coolicon.svg" alt="linkedin logo">
+                        <p>in/francosartori</p>
+                    </a>
+                </li>
+
+                <li class="nav-item not-button phone" >
+                    <a href="tel:+5492314446543" target="_blank"class="nav-link" target="_blank">
+                        <img id="phone" src="./images/phone_2.svg" alt="phone logo">
+                        <p>+5492314446543</p>
+                    </a>
+                </li>
+
+                <li class="nav-item button">
+                    <a href="https://calendly.com/franco-sartori/30min?month=2022-11" target="_blank">
+                        <button>Book a Call</button>
+                    </a>
+                    
+                </li>
+                
+            </ul>
+    
+        </nav>
+    
+    </header>
 
     <section id="hero">
         <div class="text">  
@@ -50,20 +90,22 @@
     <section id="btf">
         <div class="text">
             <h2>Highly Dedicated Project Manager With 3+ YOE Available for Freelance Consultant Work</h2>
-        <p>My experience is working exclusively in fast paced growing startups (1 - 800 employees) leading a wide range of web development projects from sales stage to discovery, through copywriting and design, to delivery and post-launch hyper-care.
+            <p>My experience is working exclusively in fast paced growing startups (1 - 800 employees) leading a wide range of web development projects from sales stage to discovery, through copywriting and design, to delivery and post-launch hyper-care.
             </p>
         </div>
-        
     </section> 
    
-    <div class="wrapper">
+    <section id="projects">
+
         <h3>Types of projects I’ve successfully delivered</h3>
+
         <input type="radio" name="slider" id="service" checked>
         <input type="radio" name="slider" id="apps">
         <input type="radio" name="slider" id="websites">
         <input type="radio" name="slider" id="landing">
         <input type="radio" name="slider" id="banners">
         <input type="radio" name="slider" id="email">
+      
         <nav>
             <label for="service" class="service" >Service Implementation</label>
             <label for="apps" class="apps" >Apps</label>
@@ -72,8 +114,9 @@
             <label for="banners" class="banners">Banners</label>
             <label for="email" class="email">Email campaigns</label>
         </nav>
-        <section>
-            <div class="content content1">
+            
+        <div class="wrapper">
+            <div class="content content1" id="slide">
                 <div class="line"></div>
                 <div class="text">
                     <h2>Smooth Service Implementation Projects</h2>
@@ -82,9 +125,9 @@
                 <div class="image">
                     <img src="./images/laptop6.png" alt="">
                 </div>
-                
             </div>
-            <div class="content content2">
+    
+            <div class="content content2" id="slide">
                 <div class="line"></div>
                 <div class="text">
                     <h2>HIPAA-Compliant Web App Development Projects</h2>
@@ -94,7 +137,8 @@
                     <img src="./images/laptop1.png" alt="">
                 </div>
             </div>
-            <div class="content content3">
+    
+            <div class="content content3" id="slide">
                 <div class="line"></div>
                 <div class="text">
                     <h2>Complex SEO-Optimised Website Projects</h2>
@@ -104,7 +148,8 @@
                     <img src="./images/laptop2.png" alt="">
                 </div>
             </div>
-            <div class="content content4">
+    
+            <div class="content content4" id="slide">
                 <div class="line"></div>
                 <div class="text">
                     <h2>High-Converting Landing Page Projects</h2>
@@ -114,7 +159,8 @@
                     <img src="./images/laptop3.png" alt="">
                 </div>
             </div>
-            <div class="content content5">
+    
+            <div class="content content5" id="slide">
                 <div class="line"></div>
                 <div class="text">
                     <h2>Eye-Catching Banner Ad Projects</h2>
@@ -124,7 +170,8 @@
                     <img src="./images/laptop4.png" alt="">
                 </div>
             </div>
-            <div class="content content6">
+            
+            <div class="content content6" id="slide">
                 <div class="line"></div>
                 <div class="text">
                     <h2>Audience-Targeted Email Campaign Projects</h2>
@@ -134,13 +181,17 @@
                     <img src="./images/laptop5.png" alt="">
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
     </div>
 
     <section id="operations">
-        <h2>How Can I Improve Your Operations?</h2>
-        <p>I provide different services tailored to your organisation’s needs.</p>
+        <div class="text">
+            <h2>How Can I Improve Your Operations?</h2>
+            <p class="subtitle">I provide different services tailored to your organisation’s needs.</p>
+        </div>
+       
         <div class="cards">
             <div class="card">
                 <img src="./images/suitcase.svg" alt="">
@@ -161,40 +212,50 @@
     </section>
 
     <section id="cta">
-        <div class="text">
-            <h3>Let’s have a call and see how I can provide the most bang for your buck.</h3>
-            <a href="https://calendly.com/franco-sartori/30min?month=2022-11" target="_blank">
-                <button>Book a call</button>
-            </a>
+        <div class="container">
+            <div class="text">
+                <h3>Let’s have a call and see how I can provide the most bang for your buck.</h3>
+                <a href="https://calendly.com/franco-sartori/30min?month=2022-11" target="_blank">
+                    <button>Book a call</button>
+                </a>
+            </div>
         </div>
-        <div class="container"></div>
     </section>
 
     <section id="testimonials">
-        <h2>Testimonials</h2>
-        <p>Clients who have trusted me to improve their operations and lead their projects</p>
+        <div class="text">
+            <h2>Testimonials</h2>
+            <p>People who have trusted me to improve their operations and lead their projects</p>
+        </div>
+        
         <div class="cards">
             <div class="card">
-                <p class="text">It was great working with Franco
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nihil, ad in dignissimos rem vitae accusamus recusandae non consectetur, esse odio facilis qui consequuntur nulla error quidem, quod quos repellat!
-                </p>
-                <p class="name"> Federico Jorge</p>
-                <p class="company">CEO and Founder at StackAgainst</p>
-
+                <div class="line"></div>
+                <div class="container">
+                    <p class="text">"Franco has been instrumental in helping us improve operations and processes at Stack Against. His strategic approach is a great asset. Whenever there's a new challenge, he's able to make sure people, projects and deliverables work in harmony."</p>
+                    <p class="name"> Federico Jorge</p>
+                    <p class="company">Founder at Stack Against</p>
+                </div>
             </div>
+
             <div class="card">
-                <p class="text">It was great working with Franco
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nihil, ad in dignissimos rem vitae accusamus recusandae non consectetur, esse odio facilis qui consequuntur nulla error quidem, quod quos repellat!</p>
-                <p class="name"> Federico Jorge</p>
-                <p class="company">CEO and Founder at StackAgainst</p>
+                <div class="line"></div>
+                <div class="container">
+                    <p class="text">"Franco is a fantastic asset to any project team due in large part to his strong interpersonal skills and high levels of organization. I had the pleasure of working with him on a number of development projects which he managed flawlessly, making sure deliverables were executed within time and budget constraints." </p>
+                    <p class="name"> Paul Galbraith</p>
+                    <p class="company">Strategic Growth Partner at Gartner
+
+              
+                </div>
             </div>
         </div>
+        
     </section>
 
     <footer class="footer">
         <div class="container">
-            <a href="#" class="logo">Franco Sartori</a>
-            <div class="img">
+            <div class="logo">
+                <a href="index.html" class="text-logo">Franco Sartori</a>
                 <img src="./images/Vector (2).svg" alt=" personal logo">
             </div>
             <nav>
